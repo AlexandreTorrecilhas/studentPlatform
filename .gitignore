@@ -1,0 +1,37 @@
+# dependencies
+node_modules/
+
+# build output
+build/
+
+# test coverage (optional)
+coverage/
+
+# dotenv files
+*.env
+
+# temporary files
+npm-debug.log
+yarn.lock
+
+# React App
+# By default, CRA sets this to 'public' but in rare situations
+# (e.g. serving static assets) you might change it.
+public/
+
+# OS specific files
+# OSX
+.DS_Store
+
+# Editor specific files
+# VSCode
+.vscode/
+
+# NPM
+*.log
+
+# yarn
+yarn-error.log
+
+# Stylelint
+stylelint-cache.json
