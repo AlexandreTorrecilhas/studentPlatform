@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
 const path = require('path');
-const dotenvPath = path.resolve(__dirname, '../../env/localhost.env');
+const dotenvPath = path.resolve(__dirname, '../env/localhost.env');
 dotenv.config({path: dotenvPath});
 
 module.exports = {
